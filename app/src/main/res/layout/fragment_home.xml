@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#F6F1F1"
+    tools:context=".Fragment.HomeFragment">
+
+   <androidx.cardview.widget.CardView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       app:cardUseCompatPadding="true"
+       app:cardCornerRadius="5dp"
+       android:layout_marginBottom="30dp"
+       app:cardBackgroundColor="#AFD3E2"
+       app:cardElevation="10dp">
+
+      <Button
+          android:layout_width="30dp"
+          android:layout_height="30dp"
+          android:background="@drawable/arrow_back" />
+
+   </androidx.cardview.widget.CardView>
+
+   <androidx.cardview.widget.CardView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       app:cardUseCompatPadding="true"
+       app:cardCornerRadius="5dp"
+       android:layout_marginBottom="30dp"
+       android:layout_marginLeft="@dimen/_30sdp"
+       app:cardBackgroundColor="#AFD3E2"
+       app:cardElevation="10dp">
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:gravity="center"
+          android:text="28-June,2004"
+          android:textColor="#146C94"
+          android:textSize="22dp"
+          android:layout_marginLeft="@dimen/_5sdp"
+          android:layout_marginRight="@dimen/_5sdp" />
+   </androidx.cardview.widget.CardView>
+
+   <ImageView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:layout_marginBottom="@dimen/_140sdp"
+       android:background="@drawable/images" />
+
+   <TextView
+       android:id="@+id/income"
+       android:layout_width="360dp"
+       android:layout_height="56dp"
+       android:text="Income"
+       android:textSize="@dimen/_22sdp"
+       android:textColor="#146C94"
+       android:background="@drawable/shape"
+       android:backgroundTint="#AFD3E2"
+       android:gravity="center"
+       android:layout_gravity="center"
+       android:layout_marginBottom="@dimen/_10sdp"/>
+
+   <TextView
+       android:layout_width="360dp"
+       android:layout_height="56dp"
+       android:text="Expense"
+       android:textSize="@dimen/_22sdp"
+       android:textColor="#146C94"
+       android:background="@drawable/shape"
+       android:backgroundTint="#AFD3E2"
+       android:gravity="center"
+       android:layout_gravity="center"
+       android:layout_marginTop="@dimen/_50sdp"/>
+
+</FrameLayout>

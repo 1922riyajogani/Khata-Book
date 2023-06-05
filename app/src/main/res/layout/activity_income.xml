@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6F1F1"
+    tools:context=".Income">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/arrow_back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_40sdp"
+            android:text="Main Account"
+            android:textSize="@dimen/_18sdp"
+            android:textColor="#146C94"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_40sdp"
+            android:layout_marginTop="@dimen/_25sdp"
+            android:text="Income"
+            android:textColor="#146C94"
+            android:textSize="@dimen/_12sdp" />
+
+    </FrameLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardUseCompatPadding="true"
+        app:cardCornerRadius="5dp"
+        android:layout_marginTop="@dimen/_40sdp"
+        android:layout_marginLeft="@dimen/_30sdp"
+        app:cardBackgroundColor="#AFD3E2"
+        app:cardElevation="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="28-June,2004"
+            android:textColor="#146C94"
+            android:textSize="22dp"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_5sdp" />
+    </androidx.cardview.widget.CardView>
+
+
+        <EditText
+            android:layout_width="353dp"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginBottom="@dimen/_180sdp"
+            android:gravity="center"
+            android:hint="Enter Amount"
+            android:letterSpacing="0.2"
+            android:layout_gravity="center"
+            android:textColor="#146C94"
+            android:textStyle="bold"
+            android:textSize="@dimen/_22sdp" />
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_170sdp"
+        android:padding="10dp"
+        android:backgroundTint="#AFD3E2"
+        android:layout_marginLeft="30dp">
+
+        <EditText
+            android:layout_width="353dp"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="@null"
+            android:hint="Salary"
+            android:textColor="#146C94"
+            android:textStyle="bold"
+            android:textSize="22dp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Salary"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_230sdp"
+        android:padding="10dp"
+        android:backgroundTint="#AFD3E2"
+        android:layout_marginLeft="30dp">
+
+        <EditText
+            android:layout_width="353dp"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="@null"
+            android:hint="Note"
+            android:textColor="#146C94"
+            android:textStyle="bold"
+            android:textSize="22dp" />
+
+    </androidx.cardview.widget.CardView>
+
+</FrameLayout>
